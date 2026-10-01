@@ -4,7 +4,7 @@ const notes = [
     { id: 3, content: "next.js supports both static and dynamic rendering", important: false},
 ]
 
-let nextId = 4
+let nextId = notes.length + 1
 
 export const getNotes = () => {
     return notes
